@@ -1,0 +1,27 @@
+1) One to one relationship ==>
+  * Employee having Adhar card
+  * Employee having Pan Card
+2) One to many relationship==>
+  * Employee having Credit Cards
+  * City having ZipCodes
+  * Person having Address
+3) Many to Many=========> 
+  * Students and Teachers 
+  * Subject and Student
+  * Customer purchasing items
+-------------------------------------------------------------------
+   Employee having address
+B   CREATE TABLE employee(
+     employee_id BIGINT PRIMARY KEY auto_increment,
+     firstname VARCHAR(20) not null,
+     house_id  BIGINT
+     middlename .......
+     constraint employee_address FOREIGN KEY(house_id) REFERENCES address(house_number)
+     )
+
+    CREATE TABLE address(
+      house_number BIGINT PRIMARY KEY auto_increment,
+      street
+      city
+      country   
+
