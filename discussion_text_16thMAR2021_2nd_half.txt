@@ -1,0 +1,22 @@
+Student and Subject
+Students studying many subjects
+Each subject is being studied by many Students
+ 
+student_details
+subject_details
+student_subject
+
+https://www.tutorialspoint.com/difference-between-save-and-persist-in-hibernate
+
+https://www.concretepage.com/hibernate/fetch_hibernate_annotation
+
+Spring boot mvc application and hibernate
+
+1) controller
+2) service
+3) model
+4) repository
+
+http://localhost:6666
+
+https://phoenixnap.com/kb/import-csv-file-into-mysql
